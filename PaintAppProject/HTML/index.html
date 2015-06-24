@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Painting Application</title>
+		<meta charset="utf-8">
+		<title>Paint App</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/index.css">
+		
 	</head>
-	<body>
-		<canvas id="cvs" width="500" height="500" style="border: 1px solid #000000"></canvas>
+	<body onload="draw();">
+		<div class="title">
+			<h3>PAINT-TED</h3>
+		</div>
+
+		<div class="centerCanvas">
+			<div class="aside">
+				<button>STROKE</button>
+				<button>+</button>
+				<button>-</button>
+				<input>
+			</div>
+			<div class="canvas">
+				<canvas id="cvs" width="650" height="520"></canvas>
+			</div>
+		</div>
+		
 		<script type="text/javascript" src="../JS/canvas.js"></script>
+		
 	</body>
 </html>

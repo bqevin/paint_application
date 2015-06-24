@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: rgb(55,65,64);
+}
+
+canvas {
+	background-color: rgb(255,240,255);
+	border: 1px solid #000000;
+
+}
+
+
+.title {
+	background-color: rgb(30,30,32);
+	padding: 15px;
+	font-weight: bold;
+	font-size: 100%;
+	color: rgb(220,53,34);
+	box-shadow: 3px 3px 4px 3px rgb(10,5,8);
+	border: 
+}
+
+.centerCanvas {
+	width: 850px;
+	margin: 20px auto;
+}
+
+.canvas {
+	width: 650px;
+	float: left;
+}
+
+.aside {
+	height: 520px;
+	width: 180px;
+	background-color: rgb(42,44,43);
+	float: left;
+}
